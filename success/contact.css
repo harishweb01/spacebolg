@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.first{
+    background-color: blueviolet;
+}
+.first h3{
+    color: white;
+}
+.head{
+    background-color: rgba(0, 0, 0, 0.11);
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+.logo{
+    
+    margin: 3ch;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+.logo span{
+    color: lightpink;
+}
+.nav{
+    width: fit-content;
+    margin-top: 3%;
+    height: fit-content;
+}
+.nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin: 2ch;
+    padding: 2px;
+    border-bottom: 2px solid lightpink;
+    border-radius: 5px;
+}
+.nav a:hover{
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.527) ;
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+}
+.contact{
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.line{
+    height: fit-content;
+    cursor: pointer;
+    margin: 2ch;
+    display: none;
+}
+.line1{
+    background-color: white;
+    width: 45px;
+    height: 4px;
+    margin: 8px;
+    cursor: pointer;
+}
+.second{
+    height: fit-content;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.intro{
+    height: fit-content;
+    background-color: blueviolet;
+    width: 400px;
+    margin: 40px;
+
+}
+.intro h2{
+    width: fit-content;
+    color: white;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.intro p{
+    color: lightpink;
+    font-size: 20px;
+    margin: 10px;
+    word-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro h3{
+    color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.intro a{
+    height: fit-content;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    margin: 10px ;
+    font-size: 30px;
+}
+.insta:hover{
+    color: rgb(212, 38, 67);
+}
+.twitter:hover{
+    color: rgb(0, 0, 0);
+}
+.facebook:hover{
+    color: rgb(39, 39, 194);
+}
+.intro i{
+    size: 32px;
+}
+.pic{
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    height: fit-content;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+}
+.pic h2{
+    color: lightpink;
+    margin: 15px;
+}
+.pic p{
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+.user{
+    width: 150px;
+    height: 40px;
+    margin-left: 5px;
+}
+.pic button{
+    background-color: white;
+    height: 30px;
+    width: fit-content;
+    padding: 4px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.feedback{
+    background-color: white;
+    width: 240px;
+    height: 100px;
+    margin-left: 5px;
+    text-align: justify;
+}
+.third{
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 22, 22);
+    flex-wrap: wrap;
+}
+.link{
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.13)  ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+.link h2{
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    background-color:rgba(0, 0, 0, 0.616) ;
+}
+.link a{
+    margin: 5px;
+    color: lightpink;
+}
+.link a:hover{
+    color: white;
+}
+.category{
+    margin: 10px;
+    background-color:rgba(255, 255, 255, 0.13);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+.category h2{
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.category a{
+    
+    margin: 5px;
+    color: lightpink;
+}
+.category a:hover{
+    color: white;
+}
+.icon{
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.13);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+.icon h2{
+    color:rgb(255, 255, 255);
+    margin: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.icon a{
+    
+    margin: 5px;
+    color: lightpink;
+}
+.icon a:hover{
+    color: white;
+}
+
+@media screen and (max-width:950px) {
+    
+    .nav{
+        display: none;
+    }
+    .line{
+        display: block;
+    }
+    .first{
+        height: fit-content;
+    }
+}
+@media screen and (max-width:809px) {
+    .pic{
+        margin-top: 0px;
+    }
+}
